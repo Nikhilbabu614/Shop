@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="planets_array">
+        <item>TECHNOLOGY</item>
+        <item>FOODS &amp; DRINKS</item>
+        <item>FASHION &amp; BEAUTY</item>
+        <item>SPORTS &amp; GAMES</item>
+        <item>EDUCATION</item>
+        <item>HEALTH</item>
+        <item>HOUSEHOLD</item>
+        <item>OTHERS</item>
+    </string-array>
+</resources>

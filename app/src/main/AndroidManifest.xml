@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shop">
+        <activity android:name=".CheckoutActivity"></activity>
+        <activity android:name=".MainProductsActivity" />
+        <activity android:name=".ItemInshop" />
+        <activity android:name=".ShopADD" />
+        <activity android:name=".ShopDetails" />
+        <activity android:name=".Sellerlogout" />
+        <activity android:name=".SellerProfile" />
+        <activity android:name=".DeliverProfile" />
+        <activity android:name=".verifyOTP3" />
+        <activity android:name=".verifyOTP2" />
+        <activity android:name=".VerifyOTP" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".CustomerProfile" />
+        <activity android:name=".DeliverActivity" />
+        <activity android:name=".SellerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBC42EbNr1fRwpHyv3gsvQ7vQOJwiAsN9k" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
